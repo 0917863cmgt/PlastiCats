@@ -1,0 +1,87 @@
+body {
+    background-image: url('../../images/background.png');
+    font-family: 'Press Start 2P', cursive;
+    margin:0px; padding:0px;
+    overflow:hidden;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+boat {
+     width: 230px;
+     height: 141px;
+     background-repeat: no-repeat;
+     background-image: url('../../images/kattest.png');
+}
+cannon {
+    height:300px;
+    width:300px;
+    background-image: url('../images/cannon.png');
+    background-repeat: no-repeat;
+}
+plastic{
+    width: 128px;
+     height: 93px;
+     background-repeat: no-repeat;
+     background-image: url('../../images/plastick.png');
+}
+Boss {
+     width: 313px;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-image: url('../../images/harpoonman.png');
+}
+container {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    left:0;
+    top:0;
+    width:215px;
+    height:75px;
+}
+life {
+    position: relative;
+    background-image: url('../images/Interface/Game/catlife.png');
+    width: 75px;
+    height:75px;
+    
+}
+dead {
+    position: relative;
+    background-image: url('../images/Interface/Game/catdead.png');
+    width: 75px;
+    height:75px;
+}
+scorecontainer {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    right:5px;
+    top:5px;
+    width:215px;
+    height:75px;
+}
+scoreelement {
+    font-size: 30px;
+}
+
+projectile {
+    width: 10px;
+     height: 10px;
+     background-repeat: no-repeat;
+     background-color: black;
+    
+}
+projectile2 {
+    width: 50px;
+     height: 110px;
+     background-repeat: no-repeat;
+     background-image:'url(../images/ammo.png)';
+}

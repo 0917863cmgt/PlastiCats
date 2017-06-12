@@ -1,0 +1,111 @@
+body {
+    background: url('../images/background_title.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#board {
+    margin-top: 20%;
+    margin-left: 4%;
+}
+
+#board p{
+    font-family: 'Bangers', cursive;
+    color: orange;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 120%;
+}
+
+#board h1{
+    font-family: 'Bangers', cursive;
+    text-shadow:
+        -1px -1px 0 orange,
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        1px 1px 0 orange;
+    color: black;
+    font-size: 200%;
+}
+
+.home img{
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    width: 5%;
+    height: 8%;
+}
+
+.board {
+    background: linear-gradient(to bottom, rgba(48,200,235,0.1), rgba(60,100,200,1));
+}
+
+.unmute img{
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    width: 4%;
+    height: 8%;
+}
+
+.mute img{
+    position: fixed;
+    top: 1%;
+    right: 6%;
+    width: 4%;
+    height: 8%;
+}
+
+.score h1{
+    font-family: 'Bangers', cursive;
+    text-shadow:
+        4px 4px 0 black,
+        1px 1px 0 black,
+        4px 4px 0 black,
+        1px 1px 0 black;
+    color: orange;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.score img{
+    position: fixed;
+    top: 30%;
+    right: 48%;
+    width: 6%;
+    height: 11%;
+}
+
+#board2 {
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+#board2 p{
+    font-family: 'Bangers', cursive;
+    color: orange;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 140%;
+}
+
+#board2 h1{
+    font-family: 'Bangers', cursive;
+    text-shadow:
+        -1px -1px 0 orange,
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        1px 1px 0 orange;
+    color: black;
+    font-size: 200%;
+}
+

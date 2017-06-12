@@ -1,0 +1,31 @@
+body {
+    background: url('../images/background_resize0.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo img{
+    width: 70%;
+    height: 5%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.start img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+    width: 30%;
+    height: 20%;
+}
+
+.info img{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 4%;
+    height: 8%;
+}

@@ -1,0 +1,57 @@
+body {
+    background: url('../images/background_title.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.score h1{
+    font-family: 'Bangers', cursive;
+    text-shadow:
+        4px 4px 0 black,
+        1px 1px 0 black,
+        4px 4px 0 black,
+        1px 1px 0 black;
+    color: orange;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.score p{
+    font-family: 'Bangers', cursive;
+    text-shadow:
+        4px 4px 0 black,
+        1px 1px 0 black,
+        4px 4px 0 black,
+        1px 1px 0 black;
+    color: orange;
+    font-size: 500%;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.lb img{
+    position: fixed;
+    top: 65%;
+    left: 29%;
+    width: 9%;
+    height: 16%;
+}
+
+.home img{
+    position: fixed;
+    top: 65%;
+    right: 30%;
+    width: 9%;
+    height: 16%;
+}
+
+.replay img{
+    position: fixed;
+    top: 65%;
+    left: 45%;
+    width: 9%;
+    height: 16%;
+}
